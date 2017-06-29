@@ -1,2 +1,0 @@
-add_lunch_combo omni_b3tuhl-userdebug
-add_lunch_combo omni_b3tuhl-eng

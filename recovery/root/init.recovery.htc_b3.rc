@@ -2,12 +2,12 @@ on init
     # Load Tuxera exfat module
     insmod /system/lib/modules/texfat.ko
 
+on boot
+    start chargeled
+
 on offmode_charging
     start detect_key
     start offmode_charging
-
-on boot
-    start chargeled
 
 service chargeled /sbin/chargeled
     disabled
